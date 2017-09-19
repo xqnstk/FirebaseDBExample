@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout :android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:orientation="vertical"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="kr.hs.emirim.xqnstk.firebasedbexample.MainActivity"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    tools:context="kr.hs.emirim.xqnstk.firebasedbexample.MainActivity">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -35,8 +33,9 @@
                 android:id="@+id/profile_github"
                 android:padding="10dp"
                 android:text="https://github.com/nonameme"
-                android:textColor="pink"
+                android:textColor="@color/colorAccent"
                 android:gravity="center"
+                android:onClick="onClick"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
